@@ -1,6 +1,20 @@
 = simplecov-gem-adapter
 
-Description goes here.
+== Usage
+
+Put this at the top of your {spec,test}_helper.rb (or any code guaranteed to run before your
+tests/specs execute):
+
+    require 'simplecov'
+    require 'simplecov-gem-adapter'
+    SimpleCov.start 'gem'
+
+This adapter follows pseudo-standard rubygems packing standards:
+
+* Binaries in /bin/
+* Extensions in /ext/
+* Library code in /lib/
+* Third-party code in /vendor/
 
 == Note on Patches/Pull Requests
  
