@@ -11,7 +11,7 @@ begin
     gem.homepage = "http://github.com/michaeledgar/simplecov-gem-adapter"
     gem.authors = ["Michael Edgar"]
     gem.rubyforge_project = "simplecov-gem-adapter"
-    gem.add_dependency "simplecov", ">= 0"
+    gem.add_dependency "simplecov", ">= 0.8.1"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
