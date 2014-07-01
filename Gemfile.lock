@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    simplecov-gem-profile (1.0.2)
+      simplecov (>= 0.8.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    docile (1.1.5)
+    multi_json (1.10.1)
+    rake (10.3.2)
+    simplecov (0.8.2)
+      docile (~> 1.1.0)
+      multi_json
+      simplecov-html (~> 0.8.0)
+    simplecov-html (0.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  simplecov-gem-profile!
