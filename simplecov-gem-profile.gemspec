@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage = "http://github.com/ronen/simplecov-gem-profile"
 
   gem.name = "simplecov-gem-profile"
-  gem.version = "1.0.0"
+  gem.version = "1.0.2"
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

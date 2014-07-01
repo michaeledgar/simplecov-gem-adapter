@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simplecov-gem-profile (1.0.0)
+    simplecov-gem-profile (1.0.2)
       simplecov (>= 0.8.1)
 
 GEM
